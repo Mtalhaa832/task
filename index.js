@@ -4,16 +4,20 @@
 //     alert("wellcome:" +  userName)
 // };
 // booHoo();
-// function color(){
-// const colo = Math.ceil(Math.random());
-// const colorNmae=["red", 'green','yellow','blue']
-// document.write(colo = colorNmae )
-// };
-// color();
+//TASK 2
+function color(){
+const colorNmae=["red", 'green','yellow','blue'];
+const colo = Math.floor(Math.random()* colorNmae.length);
+const boo = colorNmae[colo];
+
+document.write(boo)
+};
+
+color();
 
 
 //task 3
-function numb(){
-const num = Math.ceil(Math.random()*100)
-document.write(num)};
-numb();
+// function numb(){
+// const num = Math.ceil(Math.random()*100)
+// document.write(num)};
+// numb();
