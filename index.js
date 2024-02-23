@@ -5,15 +5,15 @@
 // };
 // booHoo();
 //TASK 2
-function color(){
-const colorNmae=["red", 'green','yellow','blue'];
-const colo = Math.floor(Math.random()* colorNmae.length);
-const boo = colorNmae[colo];
+// function color(){
+// const colorNmae=["red", 'green','yellow','blue'];
+// const colo = Math.floor(Math.random()* colorNmae.length);
+// const boo = colorNmae[colo];
 
-document.write(boo)
-};
+// document.write(boo)
+// };
 
-color();
+// color();
 
 
 //task 3
